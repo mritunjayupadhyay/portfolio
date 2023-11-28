@@ -1,10 +1,8 @@
 import { jagota, propertyscout, quadtrust, bchurunway, 
     udemy, chess, onlineExam, traveler } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -16,14 +14,11 @@ import {
     mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
     sass,
-    snapgram,
     summiz,
     tailwindcss,
-    threads,
     typescript
 } from "../assets/icons";
 
