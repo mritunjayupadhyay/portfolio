@@ -15,15 +15,15 @@ const About = () => {
         Hello, I'm{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           {" "}
-          Adrian
+          Mritunjay
         </span>{" "}
         👋
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+        An adaptable and responsible software engineer seeking a position in your firm which will utilize my technical skills for the success of your organization. I am dedicated to developing and optimizing interactive, user-friendly, and feature-rich websites. I am a methodological, organized, self-learner. I leverage analytical skills and put strong attention to detail in order to deliver original and efficient web solutions, provide technical knowledge and expertise, and build new websites
+from start to finish.
         </p>
       </div>
 
@@ -50,8 +50,8 @@ const About = () => {
         <h3 className='subhead-text'>Work Experience.</h3>
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+            After completing my graduation in 2015, I started my career as a
+            Software Engineer. I have worked with few companies in India and Thiland.
           </p>
         </div>
 

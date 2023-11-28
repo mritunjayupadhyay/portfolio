@@ -1,4 +1,5 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { jagota, propertyscout, quadtrust, bchurunway, 
+    udemy, chess, onlineExam, traveler } from "../assets/images";
 import {
     car,
     contact,
@@ -111,55 +112,57 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Full Stack Developer",
+        company_name: "PROPERTY SCOUT",
+        icon: propertyscout,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "February 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Worked on Landing page to improve UI and UX, resulting in 25% increase of user interaction.",
+            "Added project module. To help back back office people to add many upcoming and existing building projects. Almost 30% of our users come to the rental page by project pages. Number of Highly engaged users has also increased by approx. 15%.",
+            "Added Review System. So our users can review and can give ratings to buildings.",
+            "Worked on Save Search feature. This feature allows us to notify users(by line and email) about available listings related to what the user had searched before.",
+            "Worked on a Search module to improve it with ElasticSearch."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Full Stack Developer",
+        company_name: "JAGOTA THAILAND",
+        icon: jagota,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "August 2021 - February 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Created an application in Angular to track the driver’s live location in delivery for the Logistic Management team. The team can see the path driver had taken and the actual path(by google API). By having an eye of the driver's path we had managed to reduce the cost by 30% and managed to do delivery on time.",
+            "Driver PWA application which is used by drivers. In this application, drivers get all the delivery they have to complete on the day. The driver can rearrange the sequences of deliveries. They can take proof of delivery(audio, signature, photo).",
+            "Created an API project using node js (With Nest Architecture) for B2B projects.",
+            "Established a data pipeline using Kafka between the legacy oracle system and the new MySQL DB.",
+            "Created a monitoring application which is being used to notify us(by SMS) if any of our services stopped or crashed."
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "Full Stack Developer",
+        company_name: "Bchu Runway",
+        icon: bchurunway,
+        iconBg: "#a7545e",
+        date: "September 2018 - July 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Reduced Website Load time by 40%, directly improving sales by 300 % in the first 6 months.",
+            "Implemented NestJS for API projects that are scalable and strongly typed using typescript.",
+            "Implemented various Payment Gateway for the website and mobile app to improve the customer.",
+            "Developed an in-house inventory management application to improve the team's efficiency.",
+        ],
+    },
+    {
+        title: "Software Developer",
+        company_name: "Quadtrust Infotech",
+        icon: quadtrust,
+        iconBg: "#a2d2ff",
+        date: "July 2016 - September 2018",
+        points: [
+            "Core role was to develop customized Enterprise Resource (ERP) software solutions for clients. The application was built with ReactJS with Redux and Ruby on Rails.",
+            "Involved in making (SAAS Mobile App Half Traveller) using React-Native and Ruby on Rails.",
+            "Worked as Backend Developer in Error fixing software for transformers (Trafixsoft.com).",
+            "Mentored and Trained teams inReactJs and React-Native for frontend development.",
         ],
     },
 ];
@@ -173,56 +176,49 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/mritunjayupadhyay',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/mritunjay-upadhyay-331466193/',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: chess,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Chess App',
+        description: 'Developed a frontend chess application in React. All logic and state is managed by Redux. The backend is built with Node.js, Express, and Socket.io. The backend app is in progress not deployed yet.',
+        link: 'https://chess.mjcodes.dev/',
     },
     {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
-    },
-    {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
-    },
-    {
-        iconUrl: estate,
+        iconUrl: udemy,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Rating System UI similar to Udemy',
+        description: 'Craeted a ui for rating system similar to Udemy. I have used React and Tailwind Css for ui.',
+        link: 'https://rating.mjcodes.dev/',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
         name: 'AI Summarizer Application',
         description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        link: 'https://github.com/mritunjayupadhyay/summary-app',
+    },
+    {
+        iconUrl: onlineExam,
+        theme: 'btn-back-green',
+        name: 'Api for examination portal',
+        description: 'Created api for exam portal in kolkata. It is designed to take mcq test and give result. It is built with Nestjs, and PostgreSQL.',
+        link: 'https://github.com/mritunjayupadhyay/school-management-api-v2/tree/develop',
+    },
+    {
+        iconUrl: traveler,
+        theme: 'btn-back-blue',
+        name: 'Half Traveller',
+        description: 'A traveling assistent to help you with near by attractions, restaurants (In progress).',
+        link: 'https://github.com/mritunjayupadhyay/halftraveller',
     }
 ];
