@@ -1,4 +1,3 @@
-import hero from './hero.jpg'
 import logo from './logo.svg'
 import quadtrust from './quadtrust.png'
 import bchurunway from './bchu-runway.png'
@@ -10,7 +9,6 @@ import onlineExam from './online-test.png'
 import traveler from './traveler.png'
 
 export {
-    hero,
     logo,
     quadtrust,
     bchurunway,
