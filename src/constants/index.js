@@ -217,7 +217,7 @@ export const projects = [
     {
         iconUrl: traveler,
         theme: 'btn-back-blue',
-        name: 'Half Traveller',
+        name: 'NearBy',
         description: 'A traveling assistent to help you with near by attractions, restaurants (In progress).',
         link: 'https://github.com/mritunjayupadhyay/halftraveller',
     }
